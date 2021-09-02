@@ -1,0 +1,1579 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+header{
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 40px;
+	background-color: white;
+}
+header section.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header section.container h1{
+
+}
+header section.container h1 a{
+
+}
+header section.container h1 a img{
+	width: 70%;
+
+}
+header section.container div.middle{
+	
+}
+header section.container div.middle ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header section.container div.middle ul li{
+	margin-right: 30px;
+	font-weight: 400;
+	font-size: 14px;
+}
+header section.container div.middle ul li:hover{
+	
+	border-bottom: 1px solid #0056fb;
+}
+header section.container div.middle ul li:last-child{
+	margin-right: 0;
+}
+header section.container div.middle ul li a{
+	
+}
+header section.container div.middle ul li a:hover{
+	color: #0056fb;
+}
+header section.container div.right{
+
+}
+header section.container div.right a{
+	margin-right: 20px;
+	font-size: 14px;	
+}
+header section.container div.right a:hover{
+	color: #0056fb;
+	border-bottom: 1px solid #0056fb;
+}
+header section.container div.right a.button{
+	color: #ff9d7b;
+    background-color: #ffe4da;
+    padding: 8px 12px;
+    border-radius: 8px;
+	border: none;
+}
+#spotlight{
+
+}
+#spotlight section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+#spotlight section.wrapper div.left{
+	width: 50%;
+}
+#spotlight section.wrapper div.left h1{
+	font-size: 50px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+#spotlight section.wrapper div.left p{
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#spotlight section.wrapper div.left form{
+
+}
+#spotlight section.wrapper div.left form input[type=email]{
+	border: 1px solid black;
+	padding: 12px 75px 12px 12px;
+	border-radius: 8px;
+}
+#spotlight section.wrapper div.left form input[type=submit]{
+	padding: 15px 22px;
+	border-radius: 8px;
+	margin-left: -15px;
+	background: #0056fb;
+	color: white;
+	cursor: pointer;
+}
+#spotlight section.wrapper div.right{
+	position: relative;
+}
+#spotlight section.wrapper div.right img{
+	width: 85%;
+}
+#spotlight section.wrapper div.right div.curve img.curve1{
+	width: 20%;
+	position: absolute;
+	width: 8%;
+    position: absolute;
+    top: -10px;
+    left: 199px;
+}
+#spotlight section.wrapper div.right div.curve{
+
+}
+#spotlight section.wrapper div.right div.play img.play1{
+	position: absolute;
+    width: 13px;
+    top: 32px;
+    left: 36px;
+    filter: invert(1);
+}
+#spotlight section.wrapper div.right div.play{
+	background: #ff794b;
+    padding: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -47px;
+	left: 271px;
+}
+#spotlight div.bottom{
+	align-content: center;
+	text-align: center;
+	width: 100%;
+}
+#spotlight div.bottom h6{
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+#spotlight div.bottom ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 100px;
+}
+#spotlight div.bottom ul li{
+	margin-right: 20px;
+}
+#spotlight div.bottom ul li a{
+	
+}
+#spotlight div.bottom ul li a img{
+	width: 80%;
+}
+#main{
+
+}
+#main section.wrapper{
+
+}
+#main section.wrapper section.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 200px;
+	padding-top: 76px;
+}
+#main section.wrapper section.two{
+	padding-top: 25px;
+	justify-content: center;
+	background: #f7f7f7;
+}
+#main section.wrapper section.two div.left{
+	
+}
+#main section.wrapper section.container div.left{
+	width: 40%;
+	margin-right: 85px;
+}
+#main section.wrapper section.container div.left img{
+	width: 100%;
+}
+#main section.wrapper section.container div.right{
+	width: 30%;
+
+}
+#main section.wrapper section.container div.right img{
+
+}
+#main section.wrapper section.container div.right img.edit{
+	background: #ff794b;
+    padding: 12px;
+    border-radius: 40%;
+}
+#main section.wrapper section.container div.right img.lightning{
+	background: #ffc836;
+	padding: 12px;
+    border-radius: 40%;
+}
+#main section.wrapper section.container div.right img.film{
+	background:#3dd278;
+	padding: 12px;
+    border-radius: 40%;
+
+}
+#main section.wrapper section.container div.right h1{
+	font-size: 35px;
+	font-weight: 700;
+	margin:  15px 0 20px;
+}
+#main section.wrapper section.container div.right p{
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+#main section.wrapper section.container div.right small{
+	display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #a1a1a1
+}
+#main section.wrapper section.container div.right h6{
+	color: #a1a1a1;
+	margin-bottom: 20px;
+}
+#main section.wrapper section.container div.right h6 b{
+	font-weight: 900;
+}
+#main section.wrapper section.container div.right a{
+	
+}
+#main section.wrapper section.container div.right a.button{
+	display: inline-block;
+	background: #0056fb;
+	padding: 8px 12px;
+    color: white;
+    border-radius: 8px;
+}
+#main section.wrapper section.container div.right a img{
+
+}
+#videos{
+
+}
+#videos section.wrapper h3{
+	font-size: 40px;
+	font-weight: 1000;
+	width: 40%;
+	margin-bottom: 60px;
+}
+#videos section.wrapper div.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 50px;
+	
+}
+#videos section.wrapper div.container div.item{
+	display: flex;
+	justify-content:space-evenly;
+	flex-direction: column;
+	height: 300px;
+	margin-right: 20px;
+}
+#videos section.wrapper div.container div.one{
+
+}
+#videos section.wrapper div.container div.two{
+
+}
+#videos section.wrapper div.container div.three{
+
+}
+#videos section.wrapper div.container div.item div.top{
+	background: url(../images/review1.jpg) no-repeat;
+	width: 400px;
+    height: 350px;
+    background-size: contain;
+	position: relative;
+	border-radius: 8px;
+
+}
+#videos section.wrapper div.container div.item div.nbc a.logo{
+
+}
+#videos section.wrapper div.container div.item div.nbc a.logo img{
+	width: 75%;
+}
+#videos section.wrapper div.container div.item div.large a.logo{
+	width: 100px;
+
+}
+#videos section.wrapper div.container div.item div.top a.play{
+	background: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 103px;
+    bottom: 195px;
+}
+#videos section.wrapper div.container div.item div.top a img{
+
+}
+#videos section.wrapper div.container div.item div.top a.logo{
+	background: white;
+	padding: 12px 20px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+}
+#videos section.wrapper div.container div.item div.bottom{
+
+}
+#videos section.wrapper div.container div.item div.bottom h4{
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 10px;
+}
+#officials{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+#officials section.wrapper{
+
+}
+#officials section.wrapper section.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+#officials section.wrapper section.container div.item{
+	width: 50%;
+	margin-right: 2%;
+}
+#officials section.wrapper section.container div.item:last-child{
+	margin-right: 0;
+}
+#officials section.wrapper section.container div.profile1{
+
+}
+#officials section.wrapper section.container div.item div.top{
+	position: relative;
+}
+#officials section.wrapper section.container div.item div.top img{
+	border-radius: 8px;
+	width: 98%;
+} 
+#officials section.wrapper section.container div.item div.top a{
+
+}
+#officials section.wrapper section.container div.item div.top a.logo{
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	background: white;
+	padding: 10px 16px;
+	border-radius: 8px;
+}
+#officials section.wrapper section.container div.item div.top a.logo img{
+	width: 70px;
+}
+#officials section.wrapper section.container div.profile1 div.top a.logo img{
+	width: 70%;
+}
+#officials section.wrapper section.container div.profile1 div.top{
+	position: relative;
+}
+#officials section.wrapper section.container div.profile1 div.top a.logo{
+	position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background: white;
+    padding: 13px 16px;
+    border-radius: 8px;
+    width: 100px;
+}
+#officials section.wrapper section.container div.item div.bottom{
+
+}
+#officials section.wrapper section.container div.item div.bottom h4{
+	width: 77%;
+	font-weight: 700;
+	margin-top: 10px;
+}
+#officials section.wrapper section.container div.item div.bottom h6{
+	margin-top: 10px;
+	font-weight: 700;
+}
+#officials section.wrapper section.container div.item div.bottom small{
+	margin-top: 10px;
+	color: #606060;
+}
+#officials section.wrapper section.container div.item div.bottom h5{
+	font-weight: 600;
+}
+#marketing{
+
+}
+#marketing section.wrapper{
+
+}
+#marketing section.wrapper h1{
+	text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+	margin-bottom: 40px;
+}
+#marketing section.wrapper ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#marketing section.wrapper ul li{
+	width: 33.33%;
+	padding: 4%;
+	padding-bottom: 100px;
+	border-right: 1px dotted #ababab;
+}
+#marketing section.wrapper ul li:hover{
+	box-shadow: 10px 10px 30px rgba(0,1,0,50%);	
+}
+#marketing section.wrapper ul li:nth-child(3){
+	border: none;
+}
+#marketing section.wrapper ul li:nth-child(6){
+	border: none;
+}
+#marketing section.wrapper ul li img{
+	width: 65%;
+}
+#marketing section.wrapper ul li h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#marketing section.wrapper ul li p{
+	font-weight: 600;
+}
+#service{
+
+}
+#service section.wrapper{
+	text-align: center;
+}
+#service section.wrapper section.container{
+	background: #d0dfff;
+    width: 45%;
+    padding: 30px;
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	border-radius: 8px;
+	margin-bottom: 150px;
+}
+#service section.wrapper section.container a.star{
+	display: block;
+	position: absolute;
+}
+#service section.wrapper section.container a.star img{
+	display: block;
+	position: absolute;
+	background: white;
+	padding: 20px;
+	border-radius: 34%;
+	bottom: 10px;
+}
+#service section.wrapper section.container p{
+	width: 60%;
+    font-size: 15px;
+    font-weight: 700;
+}
+#service section.wrapper section.container a{
+	font-size: 15px;
+    font-weight: 700;
+    width: 60%;
+}
+#service section.wrapper section.container a.button{
+	background: #0056fb;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+	display: block;
+	width: 24%;
+	font-size: 12px;
+}
+#service section.wrapper section.introduction{
+	text-align: center;
+	margin: 0 auto;
+}
+#service section.wrapper section.introduction h1{
+	font-size: 35px;
+    font-weight: 700;
+	padding-bottom: 50px;
+}
+#service section.wrapper section.introduction ul{
+	display: flex;
+	justify-content: space-between;
+}
+#service section.wrapper section.introduction ul li{
+	margin-right: 30px;
+	padding-top: 40px;
+	border-radius: 8px;
+	width: 33.33%;
+	height: 550px;
+}
+#service section.wrapper section.introduction ul li:nth-child(1){
+	background: #d0dfff;
+}
+#service section.wrapper section.introduction ul li:nth-child(2){
+	background: #fef4d7;
+}
+#service section.wrapper section.introduction ul li:nth-child(3){
+	background: #ffe4da;
+	margin-right: 0;
+}
+#service section.wrapper section.introductionul li a{
+
+}
+#service section.wrapper section.introduction ul li a.logo{
+
+}
+#service section.wrapper section.introduction ul li a.logo img{
+	background: white;
+    padding: 15px;
+    border-radius: 40%;
+    width: 14%;
+}
+#service section.wrapper section.introduction ul li h2{
+	font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#service section.wrapper section.introduction ul li p{
+	font-weight: 600;
+	font-size: 16px;
+}
+#service section.wrapper section.introduction ul li a.button{
+	display: inline-block;
+    background: #0056fb;
+    padding: 12px;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+	margin: 30px 0 50px 0;
+}
+#service section.wrapper section.introduction ul li:nth-child(2) a.button{
+	background: #ffc836;
+}
+#service section.wrapper section.introduction ul li:nth-child(3) a.button{
+	background: #ff794b;
+}
+#service section.wrapper section.introduction img{
+	width: 80%;	
+}
+#resources{
+	padding-top: 14%;
+}
+#resources section.wrapper{
+	text-align: center;
+}
+#resources section.wrapper h1{
+	font-size: 35px;
+    width: 36%;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+#resources section.wrapper ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+#resources section.wrapper ul li{
+	margin-right: 25px;
+	width: 33.33%;
+	text-align: left;
+}	
+#resources section.wrapper ul li img{
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 20px;	
+}
+#resources section.wrapper ul li small{
+		margin-bottom: 20px;
+		font-weight: 500;
+}
+#resources section.wrapper ul li:first-child small{
+	color: #0056fb;
+}
+#resources section.wrapper ul li h4{
+	margin: 10px 0 20px;
+	font-weight: 700;
+    
+}
+#resources section.wrapper ul li a{
+	font-weight: 600;
+	border-bottom: 1px solid black;
+
+}
+#resources section.wrapper a{
+	margin-bottom: 50px;
+}
+#resources section.wrapper a:hover{
+	color: #0056fb;
+}
+#resources section.wrapper a.button{
+	display: inline-block;
+	background: #0056fb;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+section#demo { 
+	background: black;
+}
+
+section#demo section.wrapper { 
+
+}
+
+section#demo section.wrapper section.container { 
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	
+}
+
+section#demo section.wrapper section.container div.left { 
+	width: 80%;
+	height: 600px;
+}
+section#demo section.wrapper section.container div.left div.bottom{
+
+}
+section#demo section.wrapper section.container div.left div.bottom ul{
+	display: flex;
+	justify-content: flex-start;
+}
+section#demo section.wrapper section.container div.left div.bottom ul li{
+	margin-right: 10px;
+}
+section#demo section.wrapper section.container div.left div.bottom ul li a img{
+	width: 80%;
+}
+section#demo section.wrapper section.container div.left h2 { 
+	color: white;
+    font-size: 35px;
+    font-weight: 900;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+section#demo section.wrapper section.container div.left p { 
+	color: #666666;
+	font-size: 13px;
+	margin-bottom: 60px;
+	position: relative;	
+}
+section#demo section.wrapper section.container div.left p::after {
+    display: block;
+    content: '';
+    width: 165px;
+    height: 5px;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    border-bottom: 2px dotted darkgray;
+    background: #000;
+}
+section#demo section.wrapper section.container div.left p::before {
+    display: block;
+    content: '';
+    width: 159px;
+    height: 5px;
+    position: absolute;
+    top: 345px;
+    left: 0;
+    border-bottom: 2px dotted darkgray;
+    background: #000;
+}
+
+section#demo section.wrapper section.container div.left h4 { 
+	color: white;
+	font-weight: 600;
+    margin-bottom: 20px;
+}
+section#demo section.wrapper section.container div.left h6{
+	color: white;
+	font-size: 14px;
+    margin-bottom: 20px;
+}
+
+section#demo section.wrapper section.container div.left h5 { 
+	color: white;
+	font-weight: 700;
+}
+
+section#demo section.wrapper section.container div.left small { 
+	color: #666666;
+	font-size: 12px;
+}
+
+section#demo section.wrapper section.container div.left ul { 
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px 0 65px 0;
+}
+
+section#demo section.wrapper section.container div.left ul li { 
+	margin-right: 5px;
+}
+section#demo section.wrapper section.container div.left ul li:first-child a.image img{
+
+}
+section#demo section.wrapper section.container div.left ul li a { 
+	
+}
+
+section#demo section.wrapper section.container div.left ul li a.image img{ 
+	border-radius: 50%;
+}
+section#demo section.wrapper section.container div.left ul li a.image img:hover{
+	border: 3px solid #a95031;
+}
+
+section#demo section.wrapper section.container div.right { 
+	background-color: #fff;
+	height: 456px;
+    width: 695px;
+	border-radius: 10px;
+	padding: 50px;
+}
+
+section#demo section.wrapper section.container div.right h1 { 
+	font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+section#demo section.wrapper section.container div.right form { 
+
+}
+
+section#demo section.wrapper section.container div.right form input,section#demo section.wrapper section.container div.right form select { 
+	border: 1px solid lightgray;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+	border-radius: 4px;
+}
+
+section#demo section.wrapper section.container div.right form select { 
+	width: 44%;
+	color: darkgray;
+}
+
+section#demo section.wrapper section.container div.right input#check { 
+
+}
+
+section#demo section.wrapper section.container div.right label { 
+	font-size: 14px;
+}
+
+section#demo section.wrapper section.container div.right label a { 
+
+}
+
+section#demo section.wrapper section.container div.right a.button { 
+	display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background: #0056fb;
+	color: white;
+    border-radius: 8px;
+	margin-top: 20px;
+	
+}
+footer { 
+	padding:50px;
+}
+
+footer section.wrapper { 
+	display: flex;
+	justify-content: space-between;
+}
+
+footer section.wrapper div.left { 
+
+}
+footer section.wrapper div.left a{ 
+	margin-right: 15px;
+	padding: 10px;
+	font-size: 18px;
+}
+footer section.wrapper div.left h3 { 
+	font-size: 24px;
+	font-weight: 500;
+}
+
+footer section.wrapper div.left h3 br { 
+
+}
+
+footer section.wrapper div.left ul { 
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px 0;
+	filter: opacity(0.5);
+}
+
+footer section.wrapper div.left ul li { 
+
+}
+
+footer section.wrapper div.left ul li a.logo { 
+
+}
+
+footer section.wrapper div.left ul li a.logo img { 
+	filter: grayscale(1);
+    background: #f0f0f0;
+    padding: 14px;
+    border-radius: 40%;
+}
+
+footer section.wrapper div.left span { 
+
+}
+
+footer section.wrapper div.left span a { 
+	font-weight:700;
+	display: block;
+}
+
+footer section.wrapper div.left span a img { 
+	margin-right: 10px;
+	
+}
+
+footer section.wrapper div.left h4 { 
+    margin-top: 10px;
+}
+
+footer section.wrapper div.right { 
+
+}
+
+footer section.wrapper div.right ul { 
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+footer section.wrapper div.right ul li { 
+	width: 22%;
+	
+}
+
+footer section.wrapper div.right ul li h3 { 
+	margin-bottom: 15px;
+    font-weight: 600;
+}
+
+footer section.wrapper div.right ul li a { 
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+footer section.wrapper div.right ul li a img { 
+	margin-right: 10px;
+}
+@media all and (max-width:1280px){
+	#videos section.wrapper div.container div.item{
+		margin-right: -76px;
+	} 
+
+	#videos section.wrapper div.container{
+		flex-wrap: wrap;
+	}
+
+}
+@media all and (max-width:1080px){
+	header section.container div.right {
+		width: 25%;
+	}
+	header section.container div.middle ul {
+		width: 95%;
+	}
+	header section.container div.middle ul li{
+		margin-right: 0px;
+		width: 72px;
+	}
+	#spotlight section.wrapper div.left h1{
+		font-size: 35px;
+	}
+	#spotlight section.wrapper div.left form input[type=email]{
+		padding: 12px 28px 12px 12px;
+		width: 175px;
+	}
+	#spotlight section.wrapper div.right img {
+		width: 80%;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1{
+		left: 158px;
+	}
+	#spotlight section.wrapper div.right div.play{
+		padding: 36px;
+		left: 220px;
+	}
+	#spotlight section.wrapper div.right div.play img.play1 {
+		width: 10px;
+		top: 30px;
+		left: 31px;
+	}
+	#main section.wrapper section.container div.right h1{
+		font-size: 32px;
+	}
+	#videos section.wrapper div.container div.three {
+		margin-top: 50px;
+	}
+	#videos section.wrapper div.container{
+		justify-content: center;
+	}
+	#videos section.wrapper div.container div.three {
+		margin-top: 0;
+	}
+	#videos section.wrapper div.container div.item {
+		margin-bottom: 20px;
+	}
+	#officials section.wrapper section.container div.item div.bottom h4 {
+		width: 100%;
+	}
+	#service section.wrapper section.container {
+		width: 60%;
+	}
+	#resources section.wrapper h1 {
+		width: 49%;
+	}
+	section#demo section.wrapper section.container div.right form{
+		width: 117%;
+	}
+	section#demo section.wrapper section.container div.right form select{
+		width: 47%;
+    	color: darkgray;
+	}
+	section#demo section.wrapper section.container div.right label {
+		font-size: 13px;
+	}
+	
+	footer section.wrapper div.right ul li {
+		width: 34%;
+		margin-top: 21px;
+	}
+	footer section.wrapper div.left ul li {
+		margin: -11px;
+	}
+	section#demo section.wrapper section.container div.left p{
+		font-size: 11px;
+	}
+	section#demo section.wrapper section.container div.left h6 {
+		font-size: 12px;
+	}
+	section#demo section.wrapper section.container div.left h2{
+		font-size: 30px;
+	}
+	#service section.wrapper section.introduction ul li a.logo img {
+		width: 20%;
+	}
+}
+@media all and (max-width:980px){
+	header section.container div.right {
+		width: 30%;
+	}
+	header section.container div.middle {
+		display: none;
+	}
+	#spotlight section.wrapper div.left {
+		width: 100%;
+	}
+	#spotlight section.wrapper div.left h1 {
+		font-size: 30px;
+	}
+	#spotlight section.wrapper div.right div.play {
+		padding: 26px;
+		left: 142px;
+	}
+	#spotlight section.wrapper div.right div.play img.play1 {
+		width: 8px;
+		top: 21px;
+		left: 23px;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		left: 103px;
+	}
+	#main section.wrapper section.container div.right h1 {
+		font-size: 26px;
+	}
+	#main section.wrapper section.container div.right {
+		width: 50%;
+	}
+	#marketing section.wrapper ul li p {
+		font-weight: 600;
+		font-size: 13px;
+	}
+	#service section.wrapper section.container p {
+		width: 55%;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	#service section.wrapper section.container a.button {
+		padding: 15px;
+		width: 22%;
+	}
+	#service section.wrapper section.container {
+		width: 71%;
+	}
+	#service section.wrapper section.introduction h1 {
+		font-size: 26px;
+	}
+	#service section.wrapper section.introduction ul li a.logo img {
+		width: 25%;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		top: -6px;
+	}
+	#spotlight section.wrapper div.right div.play{
+		top: -23px;
+	}
+	#service section.wrapper section.introduction ul li p {
+		font-size: 15px;
+	}
+	#resources section.wrapper ul li h4 {
+		font-size: 14px;
+	}
+	section#demo section.wrapper section.container{
+		flex-wrap: wrap;
+	}
+	section#demo section.wrapper section.container{
+		text-align: center;
+	}
+	section#demo section.wrapper section.container div.left h2 {
+		display: inline-block;
+	}
+	section#demo section.wrapper section.container div.left p::after {
+		left: 350px;
+	}
+	section#demo section.wrapper section.container div.left ul {
+		justify-content: center;
+	}
+	section#demo section.wrapper section.container div.left p::before{
+		left: 355px;
+	}
+	section#demo section.wrapper section.container div.left div.bottom ul{
+		justify-content: center;
+	}
+	section#demo section.wrapper section.container div.right form select{
+		width: 47%;
+	}
+	section#demo section.wrapper section.container div.right form input, section#demo section.wrapper section.container div.right form select{
+		width: 276px;
+	}
+	section#demo section.wrapper section.container div.right form {
+		width: 100%;
+	}
+	section#demo section.wrapper section.container div.right{
+		margin-bottom: 35px;
+	}
+	section#demo section.wrapper section.container div.left{
+		width: 100%;
+	}
+	section#demo section.wrapper section.container{
+		justify-content: center;
+	}
+}
+@media all and (max-width:768px){
+	header section.container div.right{
+		width: 36%;
+	}
+	#spotlight section.wrapper div.left h1 {
+		font-size: 24px;
+	}
+	#spotlight section.wrapper div.left p {
+		font-size: 14px;
+	}
+	#spotlight section.wrapper div.left form input[type=email] {
+		padding: 9px 1px 11px 5px;
+		width: 120px;
+		font-size: 10px;
+	}
+	#spotlight section.wrapper div.left form input[type=submit] {
+		padding: 11px 7px;
+		border-radius: 8px;
+		margin-left: -10px;
+		background: #0056fb;
+		color: white;
+		cursor: pointer;
+		font-size: 10px;
+	}
+	#main section.wrapper section.container{
+		padding-bottom: 100px;
+	}
+	#spotlight section.wrapper div.right div.play {
+		padding: 20px;
+		left: 128px;
+	}
+	#spotlight section.wrapper div.right div.play img.play1 {
+		width: 6px;
+		top: 16px;
+		left: 18px;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		left: 92px;
+		top: -6px;
+	}
+	#main section.wrapper section.container div.left {
+		width: 52%;
+	}
+	#main section.wrapper section.container div.right a.button {
+		font-size: 12px;
+	}
+	#videos section.wrapper h3{
+		text-align: center;
+		font-size: 28px;
+		width: 100%;
+	}
+	#videos section.wrapper div.container{
+		justify-content: center;
+	}
+	#videos section.wrapper div.container div.item {
+		margin-bottom: 30px;
+	}
+	#officials section.wrapper section.container{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#officials section.wrapper section.container div.profile1 {
+		margin-bottom: 30px;
+	}
+	#officials section.wrapper section.container div.item div.bottom h4 {
+		font-size: 14px;
+	}
+	#officials section.wrapper section.container div.item div.top a.logo img {
+		width: 40px;
+	}
+	#officials section.wrapper section.container div.profile1 div.top a.logo{
+		padding: 6px 20px;
+	}
+	#marketing section.wrapper ul li{
+		width: 50%;
+	}
+	
+	#marketing section.wrapper ul li:nth-child(2){
+		border: none;
+	}
+	#marketing section.wrapper ul li:nth-child(3){
+		border-right: 1px dotted #ababab;
+	}
+	#marketing section.wrapper ul li:nth-child(4){
+		border: none;
+	}
+	#service section.wrapper section.container {
+		width: 85%;
+	}
+	#service section.wrapper section.container{
+		flex-wrap: wrap;
+	}
+	#service section.wrapper section.introduction ul{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#service section.wrapper section.introduction ul li{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	#resources section.wrapper h1 {
+		width: 100%;
+		font-size: 30px;
+	}
+
+	section#demo section.wrapper section.container div.right form input, section#demo section.wrapper section.container div.right form select {
+		width: 200px;
+	}
+	section#demo section.wrapper section.container div.left p::after {
+		left: 266px;
+	}
+	section#demo section.wrapper section.container div.left p::before {
+		left: 261px;
+	}
+	footer section.wrapper{
+		flex-wrap: wrap;
+	}
+	footer section.wrapper div.right ul {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 30px;
+		flex-wrap: nowrap;
+	}
+	footer section.wrapper div.right ul li{
+		margin-right: 10px;
+	}
+	#main section.wrapper section.container{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#main section.wrapper section.container div.right{
+		width: 60%;
+	}
+}
+@media all and (max-width:640px){
+	header section.container div.right{
+		width: 51%;
+	}
+	#spotlight section.wrapper div.left {
+		width: 100%;
+		text-align: center;
+	}
+	#spotlight section.wrapper div.left form input[type=submit] {
+		margin-left: -16px;
+	}
+	#spotlight section.wrapper div.right img{
+		display: none;
+	}
+	#spotlight section.wrapper div.right div.play{
+		left: 105px;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		left: 74px;
+		top: -16px;
+		width: 29px;
+	}
+	#spotlight section.wrapper{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#spotlight section.wrapper div.right div.play img.play1{
+		top: -88px;
+	}
+	#spotlight section.wrapper div.right div.play {
+
+		left: 124px;
+		top: 73px;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		left: 90px;
+		top: -4px;
+		
+	}
+	#spotlight section.wrapper div.right img {
+		margin-top: 105px;
+	}
+	#marketing section.wrapper h1 {
+		font-size: 26px;
+	}
+	#service section.wrapper section.container p{
+		width: 100%;
+	}
+	#service section.wrapper section.container {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	#service section.wrapper section.container a.button{
+		width: 32%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	#service section.wrapper section.container p {
+		width: 100%;
+		font-size: 14px;
+	}
+	#service section.wrapper section.container a.star img {
+		right: 211px;
+	}
+	#service section.wrapper section.introduction ul li:nth-child(1) {
+		width: 100%;
+
+	}
+	#service section.wrapper section.introduction ul li a.logo img {
+		width: 16%;
+	}
+	#service section.wrapper section.introduction ul li:nth-child(2) {
+		width: 100%;
+	}
+	#service section.wrapper section.introduction ul li:nth-child(3){
+		width: 100%;
+	}
+	#resources section.wrapper h1 {
+		font-size: 23px;
+	}
+	#resources section.wrapper ul{
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+	#resources section.wrapper ul li {
+		margin-bottom: 30px;
+	}
+	section#demo section.wrapper section.container div.left p::after {
+		left: 200px;
+	}
+	section#demo section.wrapper section.container div.left p::before {
+		left: 205px;
+	}
+	section#demo section.wrapper section.container div.right form input, section#demo section.wrapper section.container div.right form select {
+		width: 153px;
+	}
+	footer section.wrapper div.left h3 {
+		font-size: 23px;
+		font-weight: 500;
+		text-align: center;
+	}
+	footer section.wrapper div.right ul li {
+		width: 161px;
+	}
+	footer section.wrapper div.right ul{
+		flex-wrap: wrap;
+	}
+}
+@media all and (max-width:480px){
+	header section.container div.right{
+		display: none;
+	}
+	header section.container h1 a img{
+		width: 100%;
+		display: inline-block;
+	}
+	header section.container{
+		justify-content: center;
+	}
+	#spotlight div.bottom ul{
+		display: none;
+	}
+	#spotlight section.wrapper div.left h1{
+		text-align: center;
+	}
+	#spotlight section.wrapper div.left form{
+		text-align: center;
+	}
+	#main section.wrapper section.container div.right img.edit{
+		width: 42px;
+	}
+	#officials section.wrapper section.container div.profile1{
+		width: 100%;
+	}
+	#officials section.wrapper section.container div.item:last-child {
+		width: 100%;
+	}
+	#marketing section.wrapper ul li {
+		width: 100%;
+	}
+	#resources section.wrapper ul li {
+		width: 100%;
+	}
+	section#demo section.wrapper section.container div.left p::after{
+		left: 126px;
+	}
+	section#demo section.wrapper section.container div.left p::before {
+		left: 136px;
+		top: 327px;
+	}
+	section#demo section.wrapper section.container div.right{
+		height: 732px;
+	}
+	section#demo section.wrapper section.container div.right form input, section#demo section.wrapper section.container div.right form select {
+		width: 190px;
+	}
+	footer section.wrapper div.left ul li {
+		margin: -18px;
+	}
+	footer section.wrapper div.right ul{
+		text-align: center;
+	}
+	#service section.wrapper section.container{
+		width: 100%;
+	}
+	#service section.wrapper section.container a.button {
+		width: 40%;
+	}
+	#service section.wrapper section.container a.star img {
+		right: 186px;
+	}
+	#marketing section.wrapper ul li{
+		border: none;
+	}
+	#marketing section.wrapper ul li:nth-child(3){
+		border: none;
+	}	
+}
+@media all and (max-width:360px){
+	#spotlight section.wrapper div.right div.play {
+		left: 99px;
+		top: 75px;
+		display: none;
+	}
+	#spotlight section.wrapper div.right div.curve img.curve1 {
+		left: 66px;
+		top: -10px;
+	}
+	#main section.wrapper section.container div.right {
+		width: 100%;
+		text-align: center;
+	}
+	#main section.wrapper section.container div.left {
+		width: 100%;
+		margin: 0 auto;
+	}
+	#videos section.wrapper div.container div.item div.top {
+		
+	}
+	#videos section.wrapper div.container div.item div.top a.play{
+		padding: 8px 16px;
+		right: 75px;
+		bottom: 205px;
+	}
+	#videos section.wrapper div.container div.item div.top{
+		width: 300px;
+	}
+	footer section.wrapper div.right ul li a {
+		margin-bottom: 15px;
+	}
+	footer section.wrapper div.right ul li {
+		width: 217px;
+	}
+	#videos section.wrapper div.container div.item{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#videos section.wrapper div.container{
+		flex-wrap: wrap;
+		align-items: center;
+		justify-items: center;
+	}
+	#service section.wrapper section.container a.star img {
+		right: 151px;
+	}
+	section#demo section.wrapper section.container div.left p::after {
+		left: 80px;
+	}
+	section#demo section.wrapper section.container div.left p::before {
+		left: 77px;
+		top: 381px;
+	}
+}
+@media all and (max-width:320px){
+	section#demo section.wrapper section.container div.left p::before {
+		left: 62px;
+		top: 396px;
+	}
+	section#demo section.wrapper section.container div.left p::after {
+		left: 57px;
+	}
+	#service section.wrapper section.container a.button {
+		width: 42%;
+	}
+}
+
+
+
+
